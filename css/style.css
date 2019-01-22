@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+
+.bannerImage{
+    padding-bottom: 110px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../media/static.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content{
+    min-height: 200px;
+}
+
+#button{
+    transition: 0.5s;
+}
+
+#button:hover{
+    background-color: lightblue;
+    transform: scale(1.1);
+}
+
+.line{
+    background-color: #E6E6E6;
+    height: 1px;
+}
+
+#circ{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.test{
+    border: 1px solid black;
+}
+
+footer{
+    background-color: #dddddd;
+    color:#000000;
+    font-size:16px;
+    padding-top: 1%;
+}
+
+@media screen and (max-width: 880px){
+    body{
+        color: red;
+    }
+}

@@ -1,0 +1,1 @@
+The registration form and the contact us form won't work until database and tables are created properly!

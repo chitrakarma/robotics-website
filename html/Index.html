@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Robotics | Home
+        </title> 
+
+        <!-- Linking Bootstrap 3 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       
+        <!-- Linking the Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default navbar-fixed-top" style="width: 100%;">
+            <div class="container">
+                <div class="navbar-header">
+                    <p class="navbar-btn" >
+                        <!-- Logo -->
+                        <a href="" class="navbar-brand" style="font-size: 27px;">
+                            Robotics
+                        </a>
+                    </p>
+                    <!-- For Screen of lower dimensions -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Main menu/options of navigation bar -->
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="navbar-btn">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#events" class="navbar-btn">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#registration" class="navbar-btn" >
+                                Register
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" class="navbar-btn">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End of navigation bar -->
+
+
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:100%; min-height: 300px; max-height: 760px;">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active invisible"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="invisible"</li>
+                <li data-target="#myCarousel" data-slide-to="2" class="invisible"></li>
+                <li data-target="#myCarousel" data-slide-to="3" class="invisible"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../media/bg1.jpg" style="width:100%; min-height: 300px; max-height: 760px;">
+                </div>              
+                <div class="item">
+                    <img src="../media/bg2.jpg" style="width:100%; min-height: 300px; max-height: 760px;">
+                </div>     
+                <div class="item">
+                    <img src="../media/bg3.jpg" style="width:100%; min-height: 300px; max-height: 760px;">
+                </div>      
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- End of Carousel -->
+
+        <!-- Events Section -->
+        <div class="container" id="events">
+            <div class="row text-center" style="margin-top: 5%">
+                <h2>Events</h2>
+                <p>This section contains the information regarding the upcoming events to be organised at the auditorium</p>
+            </div>
+            <div class="row text-center" style="margin-top: 6%">
+                <a href="" class="tnail">
+                    <div class="col-xs-12 col-md-4 thumbnail">  
+                        <img src="../media/event1.jpg" style="width: 100%; height: 250px;" />
+                        <div class="caption">
+                            <h2>
+                                Artificial Intelligence
+                            </h2>
+                            <p>
+                                Dive into the world of endless possibilities with Artificial Intelligence.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="tnail">
+                    <div class="col-xs-12 col-md-4 thumbnail">
+                        <img src="../media/event2.jpg" style="width: 100%; height: 250px;" />
+                        <div class="caption">
+                            <h2>
+                                Internet of Things
+                            </h2>
+                            <p>
+                                Explore unlimited potential in your ideas when you put them to work with IOT.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="tnail">
+                    <div class="col-xs-12 col-md-4 thumbnail">
+                        <img src="../media/event3.jpg" style="width: 100%; height: 250px;" />
+                        <div class="caption">
+                            <h2>
+                                Machine Learning
+                            </h2>
+                            <p>
+                                Learn to apply Artificial Intelligence into some practical use with Machine Learning.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>        
+        <!-- End of Events Section -->
+
+        <!-- Registration Section-->
+        <div class="content" id="registration">
+            <div class="bannerImage">
+                <div class="row" >
+                    <div class="col-sm-8 col-sm-offset-2" style="padding-top: 5%;">
+                        <h1 style=" font-family: 'Times New Roman', Times, serif; font-weight: 900; ">REGISTER</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <p style="margin-top: 1%; font-weight: 500;">Apply here to join the team of technical enthusiats.</p>
+                <button class="btn btn-primary" href="#register" data-toggle="modal" style="margin-top: 2%;">
+                    Register
+                </button>
+            </div>
+        </div>
+        <!--End of Registration Section-->
+
+        <!-- About Us Section -->
+        <div class="jumbotron text-center" id="about" style=" margin-top: -20px;">
+            <h1>About Us</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h1>PHOENIX</h1>
+                    </div>
+                    <div class="col-sm-8">
+                        <p style="font-size: 15px; padding-top: 2.7%; text-align: left;">
+                            Phoenix constitutes of a group of techincally enthusiastic students who want to go an extra mile in their respective fields. After the enthralling technical fest CONVOLUTION 2018 they have now recruiting members and the interviews shall be held on 14th Sept 2018 at UIT RGPV.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6" style="padding-left: 4%;">
+                        <div class="row" style="margin-top: 10%;">
+                            <h2 style="float: left; margin-left: 1%; color: darkgray;">Contact Us</h2>
+                        </div>
+                        <div class="row" style="margin-top: 2%; ">
+                            <form action="../php/contact.php" method="post">
+                                <div class="form-group" style="display: inline-block; width: 49%;">
+                                    <input type="text" name="cname" class="form-control" placeholder="Full Name" />
+                                </div>
+                                <div class="form-group" style="display: inline-block; width: 49%;">
+                                    <input type="email" name="cemail" class="form-control"  placeholder="Email" />
+                                </div>
+                                <div class="form-group" style="display: inline-block; width: 98.5%;">
+                                    <textarea style="width: 100%;" class="form-control" placeholder="Your Message/Query" name="cmsg"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default" style="float: right; margin-right: 1%;">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" style="padding-left: 5%">
+                        <div class="row" style="margin-top: 10%;">
+                            <h2 style="float: left; color: darkgray;">UIT RGPV</h2>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 16px; text-align: left; margin-top: 1%;">
+                                Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), also known as University of Technology of Madhya Pradesh, is the State Technological University of Madhya Pradesh, situated in Bhopal, Madhya Pradesh, India. It is a multi-campus affiliating university offering diploma, undergraduate, postgraduate, integrated and doctoral courses in fields like engineering, technology, pharmacy, management, architecture, design and applied sciences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of About Us Section -->
+
+        <!-- Footer Seciton-->
+        <div class="footer">
+            <footer style="margin-top: -30px;" >
+                <div class="container text-center" >
+                    <p>SMS &copy; Chitransh Vishwakarma. All Rights Reserved | Contact : +91 9922542931</p>
+                </div>
+            </footer>
+        </div>
+        <!-- End of Footer Section-->
+
+        <!-- Modal for Registration Form -->
+        <div class="modal fade" id="register" role="dialog" style="margin-top: 100px;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form action="../php/confirmreg.php" method="POST" id="registerForm">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Register</h4>
+                        </div>
+                        <div class="modal-body" style="margin-top: 2%;">
+                            <div class="form-group" style="width: 48%; display: inline-block;margin-left: 2%;">
+                                <input type="text" name="fname" placeholder="First Name" class="form-control" required />
+                            </div>
+                            <div class="form-group" style="width: 48%; display: inline-block;">
+                                <input type="text" name="lname" placeholder="Last Name" class="form-control" required />
+                            </div>
+                            <div class="form-group" style="display: inline-block; width: 48%; margin-left: 2%;">
+                                <select name="year" class="form-control" >
+                                    <option value="first">
+                                        First
+                                    </option>
+                                    <option value="second">
+                                        Second
+                                    </option>
+                                    <option value="third">
+                                        Third
+                                    </option>
+                                    <option value="fourth">
+                                        Fourth
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group"  style="display: inline-block; width: 48%;">
+                                <select name="branch" class="form-control" >
+                                    <option value="cse">CSE</option>
+                                    <option value="me">ME</option>
+                                    <option value="pct">PCT</option>
+                                    <option value="ce">CE</option>
+                                    <option value="ex">ex</option>
+                                    <option value="ec">EC</option>
+                                    <option value="au">AU</option>
+                                    <option value="it">IT</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="width: 48%;margin-left: 2%;display: inline-block;">
+                                <input type="email" name="email" placeholder="Email" class="form-control" required />
+                            </div> 
+                            <div class="form-group" style="width: 48%;display: inline-block;">
+                                <input type="tel" name="contact"  placeholder="Contact" class="form-control" required />
+                            </div>    
+                            <div class="form-group" style="width: 97%; margin-left: 2%;">
+                                <input type="submit" value="Submit" class="btn btn-primary btn-block"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>      
+            </div>
+        </div>
+        <!-- End of Registration Form -->
+
+        <!-- Confirmation Message for Registration Form -->
+        <div class="modal fade" id="confirmreg" role="dialog" style="margin-top: 100px; height: 300px;">
+            <div class="modal-dialog">
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4>Registration Confirmed!</h4>
+                    </div>
+                    <h1>You have successfully registered!</h1>
+                    <p>You'll be hearing from us soon</p>
+                </div>      
+            </div>
+        </div>
+        <!-- End of Confirmation Message -->
+
+        <!-- Confirmation Message for Contact Us Form -->
+        <div class="modal fade" id="confirmcon" role="dialog" style="margin-top: 100px; height: 300px;">
+            <div class="modal-dialog">
+                
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4>Keep In Touch!</h4>
+                    </div>
+                    <h1>Thank You for contacting Us!</h1>
+                    <p>You'll be hearing from us soon</p>
+                </div>      
+            </div>
+        </div>
+        <!-- End of Confirmation Message -->
+    </body>
+</html>
